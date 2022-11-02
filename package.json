@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.0.96",
+    "nuxt": "3.0.0-rc.12",
+    "sass": "^1.55.0",
+    "stylus": "^0.59.0"
+  },
+  "dependencies": {
+    "chart.js": "^3.9.1",
+    "mdi": "^2.2.43",
+    "stylus-loader": "^7.1.0",
+    "vue-chartjs": "^4.1.2",
+    "vuetify": "^3.0.0"
+  }
+}
