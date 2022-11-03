@@ -1,0 +1,96 @@
+<template>
+	<div>chart</div>
+	<canvas id="chart" height="350"></canvas>
+</template>
+<script lang="ts">
+import { Chart, registerables } from "chart.js";
+
+Chart.register(...registerables);
+
+export default {
+	setup() {
+		let chart: any;
+		let clickIndex = 0;
+		let labels = [
+			"2022/10/3",
+			"2022/10/4",
+			"2022/10/5",
+			"2022/10/6",
+			"2022/10/7",
+		];
+		onMounted(() => {
+			chart = new Chart("chart", {
+				data: {
+					labels: labels,
+					datasets: [
+						{
+							type: "bar",
+							label: "血圧",
+							yAxisID: "y-left",
+							data: [
+								[78, 145],
+								[75, 115],
+								[72, 109],
+								[75, 115],
+								[75, 110],
+							],
+							backgroundColor: "#81c3ef",
+							barThickness: 5,
+							order: 4,
+						},
+						{
+							type: "line",
+							label: "体温",
+							yAxisID: "y-right",
+							data: [36.5, 36.8, 36.4, 36.8, 36.8],
+							borderColor: "#ff583d",
+							borderWidth: 3,
+							pointBackgroundColor: "#ff583d",
+							pointBorderWidth: 5,
+						},
+						{
+							type: "line",
+							label: "脈拍",
+							yAxisID: "y-left",
+							data: [68, 69, 70, 80, 84],
+							borderColor: "#79d046",
+							borderWidth: 3,
+							pointBackgroundColor: "#79d046",
+							pointBorderWidth: 5,
+						},
+						{
+							type: "line",
+							label: "SpO2",
+							yAxisID: "y-left",
+							data: [88, 88, 87, 90, 89],
+							borderColor: "#4b4a4b",
+							borderWidth: 3,
+							pointBackgroundColor: "#4b4a4b",
+							pointBorderWidth: 5,
+						},
+					],
+				},
+				options: {
+					scales: {
+						"y-left": {
+							position: "left",
+							beginAtZero: false,
+							min: 40,
+							max: 180,
+							ticks: {
+								stepSize: 10,
+							},
+						},
+						"y-right": {
+							position: "right",
+							beginAtZero: false,
+							min: 34,
+							max: 41,
+						},
+					},
+				},
+			});
+		});
+	},
+};
+</script>

@@ -22,7 +22,7 @@ const menuList = [
 ];
 </script>
 
-<style lang="stylus" scoped>
+<style scoped lang="stylus">
 .bottom-footer
   position: fixed
   bottom:0
