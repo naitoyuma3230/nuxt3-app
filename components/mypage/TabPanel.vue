@@ -13,23 +13,23 @@
 <script setup lang="ts">
 const itemList = [
 	{
-		name: "記事",
-		icon: "mdi-newspaper-variant-outline",
+		name: "POST",
+		icon: "mdi-tag",
 		to: "post",
 	},
 	{
-		name: "記録",
-		icon: "mdi-muscle",
+		name: "Table",
+		icon: "mdi-tag",
 		to: "record",
 	},
 	{
-		name: "能力",
-		icon: "mdi-muscle",
+		name: "Chart",
+		icon: "mdi-tag",
 		to: "ability",
 	},
 	{
-		name: "身体情報",
-		icon: "mdi-muscle",
+		name: "Info",
+		icon: "mdi-tag",
 		to: "biological",
 	},
 ];

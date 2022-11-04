@@ -1,17 +1,14 @@
 <template>
 	<v-card>
 		<v-card-actions>
-			<v-avatar
-				color="grey-darken-3 mr-3"
-				image="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
-			></v-avatar>
+			<v-avatar color="grey-darken-3 mr-3" :image="post.staffImg"></v-avatar>
 			<div>
-				<p class="text-subtitle-2">User Name</p>
-				<v-list-item-subtitle>creat at</v-list-item-subtitle>
+				<p class="text-subtitle-2">{{ post.staffName }}</p>
+				<v-list-item-subtitle>{{ post.time }}</v-list-item-subtitle>
 			</div>
 		</v-card-actions>
 		<v-img
-			src="https://cdn.vuetifyjs.com/images/cards/house.jpg"
+			:src="post.staffImg"
 			class="align-end"
 			gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
 			height="200px"
@@ -33,17 +30,22 @@
 		</v-card-action>
 
 		<v-card-text>
-			Whitsunday Island, Whitsunday IslandsWhitsunday Island, Whitsunday
-			IslandsWhitsunday Island, Whitsunday IslandsWhitsunday Island, Whitsunday
-			IslandsWhitsunday Island, Whitsunday Islands
+			{{ post.contentText }}
 		</v-card-text>
 		<ArticleCardReaction />
 		<ArticleCardCommentAction />
 	</v-card>
 </template>
-<script setup>
+<script>
 import ArticleCardReaction from "~/components/mypage/post/ArticleCardReaction.vue";
 import ArticleCardCommentAction from "~/components/mypage/post/ArticleCardCommentAction.vue";
+
+export default {
+	props: {
+		post: Object,
+	},
+	setup(props) {},
+};
 </script>
 
 <style></style>

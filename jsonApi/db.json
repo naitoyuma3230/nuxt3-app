@@ -1,0 +1,423 @@
+{
+	"loginUser": {
+		"userId": "001",
+		"userName": "石川直太朗",
+		"userImg": "https://i03piccdn.sogoucdn.com/ca265c3c83135a59",
+		"userDesc": "石川直太朗 さんのお部屋の介護についての情報共有を行う部屋です。【状態と注意事項】 活動範囲：ベッド上で動ける.意思の疎通：理解力に乏しい、痴呆 血圧が１６０を越えたらドクターコール。【ケアの方針】 本人としてはできるだけ在宅で生活を続けたい。"
+	},
+	"reportList": [
+		{
+			"reportId": "0001",
+			"staffName": "佳奈美玖",
+			"staffImg": "https://static-s.aa-cdn.net/img/ios/1233010717/ca50773b93e7037d29c69055253ac167?v=1",
+			"time": "2021年5月17日 11:09",
+			"needRead": true,
+			"category": "staff-side",
+			"haveReadList": [
+				{
+					"name": "",
+					"src": "https://dthezntil550i.cloudfront.net/p4/latest/p42102052243097410008650553/1280_960/12bc8bc0-2186-48fb-b432-6c011a559ec0.png"
+				},
+				{
+					"name": "",
+					"src": "https://static-s.aa-cdn.net/img/ios/1233010717/ca50773b93e7037d29c69055253ac167?v=1"
+				},
+				{
+					"name": "",
+					"src": "https://dthezntil550i.cloudfront.net/p4/latest/p42102052243097410008650553/1280_960/12bc8bc0-2186-48fb-b432-6c011a559ec0.png"
+				},
+				{
+					"name": "",
+					"src": "https://static-s.aa-cdn.net/img/ios/1233010717/ca50773b93e7037d29c69055253ac167?v=1"
+				}
+			],
+			"contentText": "佳奈さんは季節性インフルエンザの予防接種を行ったのですが新型インフルエンザの予防接種もしたほうがいいのでしょうか？佳奈さんは季節性インフルエンザの予防接種を行ったのですが新型インフルエンザの予防接種もしたほうがいいのでしょうか？",
+			"contentImgs": [
+				{
+					"name": "",
+					"src": "https://i0.wp.com/www.i879.com/hanablog/wp-content/uploads/2021/03/4459509_s.jpg?resize=618%2C464&ssl=1"
+				},
+				{
+					"name": "",
+					"src": "https://prd-kcnote.s3.ap-northeast-1.amazonaws.com/uploads/2019/07/27122330/kn_7520-3000x2000.jpg"
+				},
+				{
+					"name": "",
+					"src": "https://cdn.job-medley.com/tips/cms/pictures/3372/content_v1-999a60b0-9f6b-44ad-a40e-aed629598a9e.jpg"
+				},
+				{
+					"name": "",
+					"src": "https://prd-kcnote.s3.ap-northeast-1.amazonaws.com/uploads/2016/09/28095149/kn_1961-3000x2000.jpg"
+				}
+			],
+			"goodJobNum": 6,
+			"thumbsUp": true,
+			"visitNum": 5,
+			"commentList": [
+				{
+					"staffName": "薬剤師 幸子",
+					"staffImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN3qNXV6lBSCPWz6sr9BxpXTCzgOfttqlLrA&usqp=CAU",
+					"time": "2021年5月18日 10:00",
+					"content": "今日はお身体の状態も良く、元気でした。食事も全部食べられました！！",
+					"goodJobNum": "1.7万",
+					"visitNum": 10,
+					"haveReadNum": 6
+				},
+				{
+					"staffName": "薬剤師 幸子",
+					"staffImg": "https://dthezntil550i.cloudfront.net/p4/latest/p42102052243097410008650553/1280_960/12bc8bc0-2186-48fb-b432-6c011a559ec0.png",
+					"time": "2021年5月18日 10:00",
+					"content": "今日はお身体の状態も良く、元気でした。食事も全部食べられました！！",
+					"goodJobNum": "1.7万",
+					"visitNum": 10,
+					"haveReadNum": 6
+				},
+				{
+					"staffName": "薬剤師 幸子",
+					"staffImg": "http://img01.yohoboys.com/contentimg/2018/11/22/13/0187be5a52edcdc999f749b9e24c7815fb.jpg",
+					"time": "2021年5月18日 10:00",
+					"content": "今日はお身体の状態も良く、元気でした。食事も全部食べられました！！",
+					"goodJobNum": "1.7万",
+					"visitNum": 10,
+					"haveReadNum": 6
+				},
+				{
+					"staffName": "薬剤師 幸子",
+					"staffImg": "https://dthezntil550i.cloudfront.net/p4/latest/p42102052243097410008650553/1280_960/12bc8bc0-2186-48fb-b432-6c011a559ec0.png",
+					"time": "2021年5月18日 10:00",
+					"content": "今日はお身体の状態も良く、元気でした。食事も全部食べられました！！",
+					"goodJobNum": "1.7万",
+					"visitNum": 10,
+					"haveReadNum": 6
+				}
+			]
+		},
+		{
+			"reportId": "0002",
+			"staffName": "介護太一",
+			"staffImg": "http://img01.yohoboys.com/contentimg/2018/11/22/13/0187be5a52edcdc999f749b9e24c7815fb.jpg",
+			"time": "2021年5月17日 11:09",
+			"needRead": false,
+			"category": "staff-side",
+			"haveReadList": [
+				{
+					"name": "",
+					"src": "https://dthezntil550i.cloudfront.net/p4/latest/p42102052243097410008650553/1280_960/12bc8bc0-2186-48fb-b432-6c011a559ec0.png"
+				},
+				{
+					"name": "",
+					"src": "https://static-s.aa-cdn.net/img/ios/1233010717/ca50773b93e7037d29c69055253ac167?v=1"
+				}
+			],
+			"contentText": "食事を行いました。",
+			"contentImgs": [],
+			"goodJobNum": 6,
+			"thumbsUp": false,
+			"visitNum": 5,
+			"commentList": []
+		},
+		{
+			"reportId": "0003",
+			"staffName": "介護太一",
+			"staffImg": "http://img01.yohoboys.com/contentimg/2018/11/22/13/0187be5a52edcdc999f749b9e24c7815fb.jpg",
+			"time": "2021年5月17日 11:09",
+			"needRead": false,
+			"category": "patient-side",
+			"haveReadList": [
+				{
+					"name": "",
+					"src": "https://dthezntil550i.cloudfront.net/p4/latest/p42102052243097410008650553/1280_960/12bc8bc0-2186-48fb-b432-6c011a559ec0.png"
+				},
+				{
+					"name": "",
+					"src": "https://static-s.aa-cdn.net/img/ios/1233010717/ca50773b93e7037d29c69055253ac167?v=1"
+				}
+			],
+			"contentText": "テストpatient-side",
+			"contentImgs": [],
+			"goodJobNum": 6,
+			"thumbsUp": true,
+			"visitNum": 5,
+			"commentList": [
+				{
+					"staffName": "薬剤師 幸子",
+					"staffImg": "https://dthezntil550i.cloudfront.net/p4/latest/p42102052243097410008650553/1280_960/12bc8bc0-2186-48fb-b432-6c011a559ec0.png",
+					"time": "2021年5月18日 10:00",
+					"content": "今日はお身体の状態も良く、元気でした。食事も全部食べられました！！",
+					"goodJobNum": "1.7万",
+					"visitNum": 10,
+					"haveReadNum": 6
+				}
+			]
+		}
+	],
+	"otherList": [
+		{
+			"src": "../assets/img/add_fs.gif",
+			"date": "2013/01/17"
+		},
+		{
+			"src": "../assets/img/add_fs.gif",
+			"date": "2013/02/15"
+		},
+		{
+			"src": "../assets/img/add_fs.gif",
+			"date": "2013/02/15"
+		},
+		{
+			"src": "../assets/img/add_fs.gif",
+			"date": "2013/02/15"
+		},
+		{
+			"src": "../assets/img/add_fs.gif",
+			"date": "2013/02/15"
+		}
+	],
+	"oldTopicList": [
+		{
+			"title": "利用者情報共有板",
+			"url": "/",
+			"time": "2020/12/22 09:07",
+			"unRead": 2
+		},
+		{
+			"title": "食​事​・​排​泄​テ​ス​ト​用​ケ​ア​レ​ポ​ー​ト",
+			"url": "/",
+			"time": "2020/12/22 09:07",
+			"unRead": 2
+		},
+		{
+			"title": "バ​イ​タ​ル​チ​ェ​ッ​ク",
+			"url": "/",
+			"time": "2020/12/22 09:07",
+			"unRead": 0
+		},
+		{
+			"title": "インフルエンザ予防接種について",
+			"url": "/",
+			"time": "2020/12/22 09:07",
+			"unRead": 0
+		},
+		{
+			"title": "【重要】蕎麦アレルギーについて",
+			"url": "/",
+			"time": "2020/12/22 09:07",
+			"unRead": 0
+		},
+		{
+			"title": "インフルエンザ予防接種について",
+			"url": "/",
+			"time": "2020/12/22 09:07",
+			"unRead": 0
+		},
+		{
+			"title": "インフルエンザ予防接種について",
+			"url": "/",
+			"time": "2020/12/22 09:07",
+			"unRead": 0
+		}
+	],
+	"inOutList": [
+		{
+			"date": "2022年9月26日",
+			"meal": [
+				{
+					"time": "07:30",
+					"staple": 10,
+					"side": 10
+				},
+				{
+					"time": "12:00",
+					"staple": 10,
+					"side": 8
+				},
+				{
+					"time": "18:30",
+					"staple": 10,
+					"side": 7
+				}
+			],
+			"water": "950cc",
+			"urination": "650cc/3",
+			"defecation": 3,
+			"inOut": "+300"
+		},
+		{
+			"date": "2022年9月27日",
+			"meal": [
+				{
+					"time": "07:30",
+					"staple": 10,
+					"side": 10
+				},
+				{
+					"time": "12:00",
+					"staple": 10,
+					"side": 8
+				},
+				{
+					"time": "18:30",
+					"staple": 10,
+					"side": 7
+				}
+			],
+			"water": "950cc",
+			"urination": "650cc/3",
+			"defecation": 3,
+			"inOut": "+300"
+		},
+		{
+			"date": "2022年9月28日",
+			"meal": [
+				{
+					"time": "07:30",
+					"staple": 10,
+					"side": 10
+				},
+				{
+					"time": "12:00",
+					"staple": 10,
+					"side": 8
+				},
+				{
+					"time": "18:30",
+					"staple": 10,
+					"side": 7
+				}
+			],
+			"water": "950cc",
+			"urination": "650cc/3",
+			"defecation": 3,
+			"inOut": "+300"
+		}
+	],
+	"chatGroupList": [
+		{
+			"groupId": "001",
+			"groupImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN3qNXV6lBSCPWz6sr9BxpXTCzgOfttqlLrA&usqp=CAU",
+			"groupTitle": "参加者全員",
+			"latestMessage": "佳奈美玖：お疲れ様でした。佳奈美玖：お疲れ様でした。",
+			"latestMessageTime": "2022/10/05 14:32",
+			"unRead": 100
+		},
+		{
+			"groupId": "002",
+			"groupImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDShJvKk6hGxzh42dsr-fg3pdUkX6b4Tv05Vv3hyqTt7ySwA8nKIKaTPGHzTEGwNsDbME&usqp=CAU",
+			"groupTitle": "スタッフ側",
+			"latestMessage": "介護太郎：はい、了解です。",
+			"latestMessageTime": "2022/09/27 14:32",
+			"unRead": 1
+		},
+		{
+			"groupId": "003",
+			"groupImg": "http://img01.yohoboys.com/contentimg/2018/11/22/13/0187be5a52edcdc999f749b9e24c7815fb.jpg",
+			"groupTitle": "患者と家族側",
+			"latestMessage": "佳奈美玖：お疲れ様でした。佳奈美玖：お疲れ様でした。",
+			"latestMessageTime": "2022/08/27 14:32",
+			"unRead": 22
+		}
+	],
+	"addressList": [
+		{
+			"addressId": "001",
+			"userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN3qNXV6lBSCPWz6sr9BxpXTCzgOfttqlLrA&usqp=CAU",
+			"tag": "主担当",
+			"name": "石川 直太朗",
+			"occupation": "看護師",
+			"company": "デモ用カナミックデモ用カナミック",
+			"isManager": true
+		},
+		{
+			"addressId": "002",
+			"userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN3qNXV6lBSCPWz6sr9BxpXTCzgOfttqlLrA&usqp=CAU",
+			"tag": "副担当",
+			"name": "赤間 博赤間 博赤間 博",
+			"occupation": "看護師",
+			"company": "デモ用カナミック",
+			"isManager": true
+		},
+		{
+			"addressId": "003",
+			"userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN3qNXV6lBSCPWz6sr9BxpXTCzgOfttqlLrA&usqp=CAU",
+			"tag": "副担当",
+			"name": "大空 翼",
+			"occupation": "看護師",
+			"company": "デモ用カナミック",
+			"isManager": false
+		},
+		{
+			"addressId": "004",
+			"userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN3qNXV6lBSCPWz6sr9BxpXTCzgOfttqlLrA&usqp=CAU",
+			"tag": "主担当",
+			"name": "介護カナ",
+			"occupation": "看護師",
+			"company": "デモ用カナミック",
+			"isManager": false
+		},
+		{
+			"addressId": "005",
+			"userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN3qNXV6lBSCPWz6sr9BxpXTCzgOfttqlLrA&usqp=CAU",
+			"tag": "副担当",
+			"name": "練習 一郎",
+			"occupation": "看護師",
+			"company": "デモ用カナミック",
+			"isManager": false
+		}
+	],
+	"wantReadList": [
+		{
+			"wantReadId": "001",
+			"userImg": "",
+			"userName": "上本 一平",
+			"company": "ケアステーション　カナミック"
+		},
+		{
+			"wantReadId": "002",
+			"userImg": "",
+			"userName": "野田 加奈子",
+			"company": "ケアステーション　カナミック"
+		},
+		{
+			"wantReadId": "003",
+			"userImg": "",
+			"userName": "古川 茉莉恵",
+			"company": "ケアステーション　カナミック"
+		},
+		{
+			"wantReadId": "004",
+			"userImg": "",
+			"userName": "介護 太郎",
+			"company": "ケアステーション　カナミック"
+		},
+		{
+			"wantReadId": "005",
+			"userImg": "",
+			"userName": "小林 太郎",
+			"company": "ケアステーション　カナミック"
+		},
+		{
+			"wantReadId": "006",
+			"userImg": "",
+			"userName": "高橋 一生",
+			"company": "ケアステーション　カナミック"
+		},
+		{
+			"wantReadId": "007",
+			"userImg": "",
+			"userName": "上原 なな",
+			"company": "ケアステーション　カナミック"
+		},
+		{
+			"wantReadId": "008",
+			"userImg": "",
+			"userName": "田中 雅紀",
+			"company": "ケアステーション　カナミック"
+		},
+		{
+			"wantReadId": "009",
+			"userImg": "",
+			"userName": "【デモ用】病院 医師",
+			"company": "【デモ用】病院"
+		}
+	]
+}
