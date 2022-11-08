@@ -12,6 +12,10 @@ const menuList = [
 		to: "/mypage",
 	},
 	{
+		title: "MicroCMS",
+		to: "/microcms",
+	},
+	{
 		title: "home",
 		to: "/",
 	},

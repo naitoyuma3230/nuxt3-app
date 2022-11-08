@@ -1,7 +1,7 @@
 <template>
 	<v-toolbar density="compact">
 		<v-btn icon>
-			<v-icon>mdi-menu</v-icon>
+			<v-icon @click="back">mdi-menu</v-icon>
 		</v-btn>
 
 		<v-spacer></v-spacer>
@@ -18,4 +18,8 @@
 	</v-toolbar>
 </template>
 
-<script lang="ts"></script>
+<script setup>
+const back = () => {
+	router.back();
+};
+</script>

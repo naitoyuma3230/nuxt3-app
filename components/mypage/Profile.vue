@@ -31,5 +31,5 @@
 <script setup>
 // dataはrefによりリアクティブに使用できる変数で変数名を指定したい場合{data:変数名}とする
 // useFetchの呼び出しはsetup内のみ
-const { data: loginUser } = await useFetch("http://localhost:3000/loginUser");
+const { data: loginUser } = await useFetch("http://localhost:3001/loginUser");
 </script>
