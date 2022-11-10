@@ -14,11 +14,17 @@
 				<v-card-subtitle> {{ blogItem.createAt }} </v-card-subtitle>
 
 				<v-card-text>
-					{{ blogItem.body }}
+					{{ blogItem.discription }}
 				</v-card-text>
 
 				<v-card-actions>
-					<v-btn color="orange-lighten-2" variant="text"> Explore </v-btn>
+					<v-btn
+						color="orange"
+						variant="text"
+						:to="`/microcmsItem/${blogItem.id}`"
+					>
+						記事詳細
+					</v-btn>
 
 					<v-spacer></v-spacer>
 				</v-card-actions>
