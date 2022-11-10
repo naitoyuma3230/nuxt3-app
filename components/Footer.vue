@@ -20,8 +20,12 @@ const menuList = [
 		to: "/",
 	},
 	{
-		title: "about",
-		to: "/about",
+		title: "usestate",
+		to: "/usestate",
+	},
+	{
+		title: "compositionapi",
+		to: "/compositionapi",
 	},
 ];
 </script>

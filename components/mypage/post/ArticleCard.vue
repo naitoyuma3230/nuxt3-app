@@ -52,7 +52,7 @@
 					class="text-center my-0"
 					v-if="post.commentList.length > 1"
 				>
-					<v-btn variant="flat" to="/comment">
+					<v-btn variant="flat" :to="`/comment${post.reportId}`">
 						<p>
 							他に{{ post.commentList.length - 1 }}件のコメントがあります...
 						</p>
