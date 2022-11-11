@@ -19,6 +19,7 @@
 </template>
 
 <script setup>
+const router = useRouter();
 const back = () => {
 	router.back();
 };
