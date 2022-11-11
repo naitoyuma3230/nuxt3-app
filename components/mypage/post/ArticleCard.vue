@@ -26,6 +26,7 @@
 							<v-img
 								width="auto"
 								height="100px"
+								v-if="imgItem.src"
 								:src="imgItem.src"
 								cover
 							></v-img>

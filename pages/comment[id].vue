@@ -7,12 +7,16 @@
 				<v-icon color="blue" size="large" icon="mdi-thumb-up"></v-icon>
 			</v-btn>
 		</v-col>
-		<v-col cols="2" class="mx-1 px-0" v-for="img in reportList">
-			<v-img :src="img.staffImg"></v-img>
+		<v-col cols="2" class="mx-1 px-0" v-for="report in reportList">
+			<v-img :src="report.staffImg" v-if="report.reportId === reportId"></v-img>
 		</v-col>
 	</v-row>
 	<div v-for="report in reportList">
-		<div v-for="comment in report.commentList" class="card-bottom">
+		<div
+			v-for="comment in report.commentList"
+			class="card-bottom"
+			v-if="report.reportId === reportId"
+		>
 			<ArticleCardReaction :commentItem="comment" />
 		</div>
 		<ModalFooter />
@@ -26,16 +30,15 @@ definePageMeta({
 
 const { data: reportList } = await useFetch("http://localhost:3001/reportList");
 const route = useRoute();
+const reportId = route.params.id;
 
-const filterReport = computed(() => {
-	const reportId = route.params.id;
-	const filterReport = reportList.value.filter((report) => {
-		report.reportId === reportId;
-	});
-	return filterReport;
-});
-
-console.log(reportList.value);
+// fetchしてきたデータにfilterが使用できない
+// const filterReport = computed(() => {
+// 	const filterReport = reportList.value.filter((report) => {
+// 		report.reportId === reportId;
+// 	});
+// 	return filterReport;
+// });
 </script>
 <style lang="stylus" scoped>
 .card-bottom{
