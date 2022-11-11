@@ -21,7 +21,7 @@
 					<v-btn
 						color="orange"
 						variant="text"
-						:to="`/microcmsItem/${blogItem.id}`"
+						:to="`/microcmsItem/blog${blogItem.id}`"
 					>
 						記事詳細
 					</v-btn>

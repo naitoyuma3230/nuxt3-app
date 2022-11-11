@@ -1,6 +1,13 @@
 <template>
 	<Header />
-	<p>{{ filterReport }}</p>
+
+	<p>
+		{{
+			testList.filter((item) => {
+				item.id === route.params.id;
+			})
+		}}
+	</p>
 	<v-row class="pa-5">
 		<v-col cols="2" class="mx-0 px-0 d-flex align-center">
 			<v-btn variant="text" size="large">
@@ -24,18 +31,20 @@ definePageMeta({
 	layout: false,
 });
 
+const Greet = ref("HELLO");
+
+// reactiveな変数
 const { data: reportList } = await useFetch("http://localhost:3001/reportList");
+const { data: testList } = await useFetch("http://localhost:3001/testList");
 const route = useRoute();
 
 const filterReport = computed(() => {
 	const reportId = route.params.id;
 	const filterReport = reportList.value.filter((report) => {
 		report.reportId === reportId;
+		return filterReport;
 	});
-	return filterReport;
 });
-
-console.log(reportList.value);
 </script>
 <style lang="stylus" scoped>
 .card-bottom{
